@@ -1,0 +1,18 @@
+version: '3'
+
+networks:
+  default:
+    external:
+      name: nat
+
+services:
+  winbase:
+    build: 
+      context: .
+      dockerfile: winbase.Dockerfile
+  winbase2:
+    build:
+      context: .
+      dockerfile: winbase2.Dockerfile
+    depends_on:
+      - "winbase"
