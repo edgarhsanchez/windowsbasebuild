@@ -13,4 +13,4 @@ winbase2.Dockerfile : builds upon the winbase.Dockerfile and adds visual studio 
 
 Prereqs:
 
-You will need to have visual studio 2017 pre-installed on the system you are building this image as they are no files for visual studio were included in this project
+You will need to have visual studio 2017 pre-installed on the system if you are building this image as no files for visual studio were included in this project

@@ -1,5 +1,6 @@
 Packages
 packages.tar
 Reference Assemblies.tar
-
+*.nupkg
 *.exe
+*.msi
