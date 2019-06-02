@@ -4,3 +4,4 @@ Reference Assemblies.tar
 *.nupkg
 *.exe
 *.msi
+Microsoft*

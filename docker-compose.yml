@@ -6,13 +6,7 @@ networks:
       name: nat
 
 services:
-  winbase:
-    build: 
-      context: .
-      dockerfile: winbase.Dockerfile
-  winbase2:
+  base:
     build:
       context: .
-      dockerfile: winbase2.Dockerfile
-    depends_on:
-      - "winbase"
+      dockerfile: base.Dockerfile

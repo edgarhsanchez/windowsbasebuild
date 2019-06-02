@@ -6,9 +6,7 @@ Contents...
 
 GetSessionToken.sh : can be used to setup an aws login when the account is configured for MFA.  This is needed only if AWS is used as the docker registry.
 
-winbase.Dockerfile : builds a basic windows base with MsBuid and Nuget
-
-winbase2.Dockerfile : builds upon the winbase.Dockerfile and adds visual studio files 
+base.Dockerfile : builds a basic windows base with MsBuild, Visual Studio 2017 build tools, and Visual Studio 2015 libs
 
 
 Prereqs:
